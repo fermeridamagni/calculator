@@ -1,6 +1,6 @@
-# **Template to create NextJS applications fast and easy by [@fermeridamagni](https://github.com/fermeridamagni)**
+# Aplicación de Calculadora by [@fermeridamagni](https://github.com/fermeridamagni "@fermeridamagni")
 
-The template include a application clean and ready for the use.
+Desarrollada sobre una página web en NextJS, nuestra aplicación de calculadora ofrece un espectro completo de funciones, abordando desde las operaciones más básicas hasta operaciones avanzadas, tales como la resolución de ecuaciones de primer y segundo grado, y más.á aplicación es una calculadora montada sobre una página web en NextJS, la cual tiene desde las funciones básicas hasta algúnas más avanzadas cómo ecuaciones de primer y segundo grado y muchas más.
 
 **Packages in use:**
 
@@ -10,6 +10,8 @@ The template include a application clean and ready for the use.
 * eslint,
 * eslint-config-next,
 * autoprefixer,
+* @nextui-org/react,
+* framer-motion
 * postcss,
 * tailwindcss,
 * tailwindcss-animated,
@@ -19,16 +21,8 @@ The template include a application clean and ready for the use.
 * @fortawesome/free-solid-svg-icons,
 * @fortawesome/react-fontawesome
 
-**Optional Packages:**
 
-* @nextui-org/react,
-* framer-motion,
-* jquery,
-* bootstrap,
-* mysql - mysql2
-
-
-@ **Magni Developer**
+**@ Magni Developer**
 
  **Page** : [https://magnideveloper.com](https://magnideveloper.com "Magni Developer")
 
