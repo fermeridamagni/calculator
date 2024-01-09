@@ -4,7 +4,7 @@ import Main from "@/components/ui/main";
 
 import * as math from "mathjs";
 import copyToClipboard from "clipboard-copy";
-import { useState, useEffect, useMemo } from "react";
+import { useState, useMemo } from "react";
 import { Toaster, toast } from "sonner";
 import {
   Button,
@@ -115,8 +115,8 @@ export default function HomePage() {
             }
           />
 
-          <div className="flex flex-row justify-between gap-4">
-            <div className="flex flex-row gap-4">
+          <div className="flex flex-row justify-between items-start gap-4">
+            <div className="flex flex-row items-start gap-4">
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
                 {functionButtons.map((button) => (
                   <Button
