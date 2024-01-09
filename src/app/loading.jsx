@@ -1,6 +1,8 @@
+import Main from "@/components/ui/main";
+
 export default function Loading() {
   return (
-    <main className="w-full min-h-screen bg-gradient-to-r from-white-primary to-gray-primary animate-fade-left">
+    <Main>
       <div className="py-6 px-8 flex flex-row justify-between w-full">
         <h1 className="text-3xl text-black">Magni Developer</h1>
       </div>
@@ -15,6 +17,6 @@ export default function Loading() {
           </div>
         </div>
       </div>
-    </main>
+    </Main>
   );
 };
