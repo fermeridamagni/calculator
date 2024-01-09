@@ -4,7 +4,7 @@ Desarrollada sobre una página web en NextJS, nuestra aplicación de calculadora
 
 **URL**: [https://calculator-fermeridamagni.vercel.app/](https://calculator-fermeridamagni.vercel.app/ "Calculator by @fermeridamagni")
 
-![1704825111957](image/README/1704825111957.png)
+![1704825687522](image/README/1704825687522.png)
 
 **Packages in use:**
 
