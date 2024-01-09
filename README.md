@@ -2,6 +2,10 @@
 
 Desarrollada sobre una página web en NextJS, nuestra aplicación de calculadora ofrece un espectro completo de funciones, abordando desde las operaciones más básicas hasta operaciones avanzadas, tales como la resolución de ecuaciones de primer y segundo grado, y más.á aplicación es una calculadora montada sobre una página web en NextJS, la cual tiene desde las funciones básicas hasta algúnas más avanzadas cómo ecuaciones de primer y segundo grado y muchas más.
 
+**URL**: [https://calculator-fermeridamagni.vercel.app/](https://calculator-fermeridamagni.vercel.app/ "Calculator by @fermeridamagni")
+
+![1704825111957](image/README/1704825111957.png)
+
 **Packages in use:**
 
 * next,
@@ -20,7 +24,6 @@ Desarrollada sobre una página web en NextJS, nuestra aplicación de calculadora
 * @fortawesome/free-regular-svg-icons,
 * @fortawesome/free-solid-svg-icons,
 * @fortawesome/react-fontawesome
-
 
 **@ Magni Developer**
 
