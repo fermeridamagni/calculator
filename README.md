@@ -15,8 +15,12 @@ Desarrollada sobre una página web en NextJS, nuestra aplicación de calculadora
 * eslint-config-next,
 * autoprefixer,
 * @nextui-org/react,
+* clipboard-copy
 * framer-motion
+* mathjs
+* sonner
 * postcss,
+* next-themes
 * tailwindcss,
 * tailwindcss-animated,
 * @fortawesome/fontawesome-svg-core,
