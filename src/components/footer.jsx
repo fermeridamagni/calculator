@@ -22,7 +22,7 @@ export default function Footer() {
   const router = useRouter();
 
   return (
-    <footer className="w-full h-auto bg-black flex flex-col justify-center items-center text-white relative z-20">
+    <footer className="w-full h-auto bg-black dark:bg-black_primary flex flex-col justify-center items-center text-white relative z-20 dark:border-t border-black_primary">
       <div className="w-10/12 relative -top-8 bg-sky-700 py-10 rounded-lg shadow-black shadow-xl flex flex-row justify-between items-center px-5 flex-wrap gap-10">
         <div className="flex flex-col md:flex-row items-center md:items-start gap-10">
           <div className="w-36 h-36 bg-black rounded-full flex justify-center items-center">
@@ -47,33 +47,33 @@ export default function Footer() {
         <div className="flex flex-row flex-wrap gap-4">
           <div>
             <Button
-              className="bg-black py-2 px-8 rounded-lg shadow-xl text-white shadow-sky-700"
               onClick={() => {
                 router.push("https://magnideveloper.com/iniciar");
               }}
               endContent={<FontAwesomeIcon icon={faArrowRight} />}
+              className="bg-black text-white"
             >
               Iniciar
             </Button>
           </div>
           <div>
             <Button
-              className="bg-black py-2 px-8 rounded-lg shadow-xl text-white shadow-sky-700"
               onClick={() => {
                 router.push("https://magnideveloper.com/contacto");
               }}
               endContent={<FontAwesomeIcon icon={faArrowRight} />}
+              className="bg-black text-white"
             >
               Contacto
             </Button>
           </div>
           <div>
             <Button
-              className="bg-black py-2 px-8 rounded-lg shadow-xl text-white shadow-sky-700"
               onClick={() => {
                 router.push("https://magnideveloper.com/login");
               }}
               endContent={<FontAwesomeIcon icon={faArrowRight} />}
+              className="bg-black text-white"
             >
               Inciar Sesión
             </Button>
@@ -262,7 +262,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="w-11/12 border-t border-white-primary py-8 flex flex-col md:flex-row justify-between items-center gap-10 md:gap-0 text-center">
+      <div className="w-11/12 border-t border-white_primary py-8 flex flex-col md:flex-row justify-between items-center gap-10 md:gap-0 text-center">
         <div className="order-2 md:order-1 flex flex-col md:flex-row gap-2">
           <div>
             <p className="text-2xl md:text-base">

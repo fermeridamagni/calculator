@@ -93,9 +93,11 @@ export default function HomePage() {
 
   return (
     <Main flexCenter flexCol>
-      <Card className="w-11/12 sm:w-[500px] bg-white-primary/90 backdrop-blur-sm border-1 border-gray-primary">
+      <Card className="w-11/12 sm:w-[500px] bg-white_primary/90 backdrop-blur-sm border-1 border-gray_primary dark:bg-black_primary dark:border-black_primary">
         <CardHeader className="flex flex-center justify-center">
-          <h1 className="text-4xl font-title">Calculadora</h1>
+          <h1 className="text-4xl font-title text-black dark:text-white">
+            Calculadora
+          </h1>
         </CardHeader>
 
         <CardBody className="flex flex-col gap-6 py-10">
