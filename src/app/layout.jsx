@@ -14,7 +14,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es">
+    <html
+      lang="es"
+      className="scroll-smooth selection:bg-sky-700 selection:text-black"
+    >
       <head>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
       </head>
