@@ -2,7 +2,7 @@ import { Anton } from "next/font/google";
 import LocalFont from "next/font/local";
 
 export const fontText = LocalFont({
-  src: "./tiltneon-regular.ttf",
+  src: "./tiltneon_regular.ttf",
   style: "normal",
   variable: "--font-text",
   weight: "400",
