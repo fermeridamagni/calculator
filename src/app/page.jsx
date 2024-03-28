@@ -5,7 +5,7 @@ import Main from "@/components/ui/main";
 import * as math from "mathjs";
 import copyToClipboard from "clipboard-copy";
 import { useState, useMemo } from "react";
-import { Toaster, toast } from "sonner";
+import { toast } from "sonner";
 import {
   Button,
   Card,
@@ -92,24 +92,26 @@ export default function HomePage() {
   };
 
   return (
-    <Main flexCenter flexCol>
-      <Card className="w-11/12 sm:w-[500px] bg-white_primary/90 backdrop-blur-sm border-1 border-gray_primary dark:bg-black_primary dark:border-black_primary">
+    <Main className="justify-center items-center">
+      <Card className="w-11/12 sm:w-[500px] bg-white backdrop-blur-sm border-1 border-gray_primary dark:bg-black_primary dark:border-black_primary">
         <CardHeader className="flex flex-center justify-center">
-          <h1 className="text-4xl font-title text-black dark:text-white">
+          <h1 className="text-4xl font-title text-black dark:text-white uppercase">
             Calculadora
           </h1>
         </CardHeader>
 
         <CardBody className="flex flex-col gap-6 py-10">
           <Input
+            variant="faded"
+            color="primary"
             size="lg"
             disabled
             isReadOnly
-            value={`=${!result ? 0 : result}`}
+            value={`= ${!result ? 0 : result}`}
             label={expression}
             labelPlacement="inside"
             endContent={
-              <Tooltip content="Copiar valor">
+              <Tooltip content="Copiar valor" color="primary">
                 <Button className="bg-black" onClick={handleCopyToClipboard}>
                   <FontAwesomeIcon icon={faCopy} color="white" size="xl" />
                 </Button>
@@ -118,13 +120,15 @@ export default function HomePage() {
           />
 
           <div className="flex flex-row justify-between items-start gap-4">
-            <div className="flex flex-row items-start gap-4">
+            <div className="flex flex-row items-start gap-6">
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
                 {functionButtons.map((button) => (
                   <Button
                     key={`funcionButtons-${button.id}`}
-                    isIconOnly
+                    variant="faded"
                     size="lg"
+                    isIconOnly
+                    isDisabled
                     className={`${
                       !button.bgColor ? "bg-black" : button.bgColor
                     } ${!button.textColor ? "text-white" : button.textColor}`}
@@ -141,6 +145,7 @@ export default function HomePage() {
                 {numbersButtons.map((button) => (
                   <Button
                     key={`numberButtons-${button.id}`}
+                    variant="faded"
                     size="lg"
                     isIconOnly
                     className={`${
@@ -158,21 +163,23 @@ export default function HomePage() {
               </div>
             </div>
             <div className="grid grid-cols-2 gap-2">
-              <Tooltip content="Eliminar último carácter">
+              <Tooltip content="Eliminar último carácter" color="danger">
                 <Button
                   isIconOnly
                   size="lg"
                   color="danger"
+                  variant="faded"
                   onClick={handleDelClick}
                 >
                   DEL
                 </Button>
               </Tooltip>
-              <Tooltip content="Eliminar operación">
+              <Tooltip content="Eliminar operación" color="danger">
                 <Button
                   isIconOnly
                   size="lg"
                   color="danger"
+                  variant="faded"
                   onClick={handleAcClick}
                 >
                   AC
@@ -185,8 +192,9 @@ export default function HomePage() {
                 >
                   <Button
                     key={`basicButtons-${button.id}`}
-                    isIconOnly
+                    variant="faded"
                     size="lg"
+                    isIconOnly
                     className={`${
                       !button.bgColor ? "bg-black" : button.bgColor
                     } ${!button.textColor ? "text-white" : button.textColor}`}
@@ -200,11 +208,12 @@ export default function HomePage() {
                   </Button>
                 </Tooltip>
               ))}
-              <Tooltip content="Realizar operación">
+              <Tooltip content="Realizar operación" color="success">
                 <Button
                   isIconOnly
                   size="lg"
                   color="success"
+                  variant="faded"
                   isLoading={isLoading}
                 >
                   <FontAwesomeIcon icon={faEquals} size="xl" />
@@ -227,8 +236,6 @@ export default function HomePage() {
           </p>
         </CardFooter>
       </Card>
-
-      <Toaster richColors closeButton />
     </Main>
   );
 }

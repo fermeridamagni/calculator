@@ -1,4 +1,6 @@
-import NavBar from "@/components/navbar";
+import { Toaster } from "sonner";
+
+import Header from "@/components/header";
 import Footer from "@/components/footer";
 import Providers from "./providers";
 
@@ -23,9 +25,11 @@ export default function RootLayout({ children }) {
       </head>
       <body className={`${fontText.variable} ${fontTitle.variable} font-text`}>
         <Providers>
-          <NavBar />
+          <Header />
 
           {children}
+
+          <Toaster richColors closeButton />
 
           <Footer />
         </Providers>

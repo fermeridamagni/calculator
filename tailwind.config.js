@@ -17,6 +17,7 @@ module.exports = {
         gray_primary: "#c4c4c4",
         black_primary: "#0a0a0a",
         white_primary: "#ededed",
+        blue_primary: "#0369a1",
       },
       fontFamily: {
         title: ["var(--font-title)"],
@@ -25,5 +26,21 @@ module.exports = {
     },
   },
 
-  plugins: [require("tailwindcss-animated"), nextui()],
+  plugins: [
+    require("tailwindcss-animated"),
+    nextui({
+      themes: {
+        light: {
+          colors: {
+            primary: "#0369a1",
+          },
+        },
+        dark: {
+          colors: {
+            primary: "#0369a1",
+          },
+        },
+      },
+    }),
+  ],
 };

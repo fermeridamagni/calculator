@@ -1,32 +1,45 @@
-# Aplicación de Calculadora by [@fermeridamagni](https://github.com/fermeridamagni "@fermeridamagni")
 
-Desarrollada sobre una página web en NextJS, nuestra aplicación de calculadora ofrece un espectro completo de funciones, abordando desde las operaciones más básicas hasta operaciones avanzadas, tales como la resolución de ecuaciones de primer y segundo grado, y más.á aplicación es una calculadora montada sobre una página web en NextJS, la cual tiene desde las funciones básicas hasta algúnas más avanzadas cómo ecuaciones de primer y segundo grado y muchas más.
+# CALCULATOR **by [@fermeridamagni](https://github.com/fermeridamagni "@fermeridamagni")**
 
-**URL**: [https://calculator-fermeridamagni.vercel.app/](https://calculator-fermeridamagni.vercel.app/ "Calculator by @fermeridamagni")
+#### URL'S
 
-![1704825687522](image/README/1704825687522.png)
+* PRODUCTION: [https://calculator.magnideveloper.com](https://calculator.magnideveloper.com/ "CALCULATOR by @fermeridamagni")
+* DEVELOPMENT:
 
-**Packages in use:**
+---
+
+#### PREVIEW
+
+[![1711257578119](public/preview.webp "Calculator by @fermeridamagni")](https://github.com/fermeridamagni/dictionai-v2/blob/master/public/images/preview.webp)
+
+---
+
+#### PACKAGES IN USE
 
 * next,
 * react,
 * react-dom,
+* next-themes,
+* clipboard-copy,
 * eslint,
 * eslint-config-next,
 * autoprefixer,
-* @nextui-org/react,
-* framer-motion
 * postcss,
+* sonner,
+* clsx,
 * tailwindcss,
 * tailwindcss-animated,
+* tailwind-merge,
+* @nextui-org/react,
 * @fortawesome/fontawesome-svg-core,
 * @fortawesome/free-brands-svg-icons,
 * @fortawesome/free-regular-svg-icons,
 * @fortawesome/free-solid-svg-icons,
 * @fortawesome/react-fontawesome
 
-**@ Magni Developer**
+---
 
- **Page** : [https://magnideveloper.com](https://magnideveloper.com "Magni Developer")
+@ **Magni Developer**
 
- **Contact** : [https://magnideveloper.com/contacto](https://magnideveloper.com/contacto "Magni Developer | Contacto")
+* **Page Web** : [https://magnideveloper.com](https://magnideveloper.com/ "Magni Developer")
+* **Email** : [contacto@magnideveloper.com](mailto:contacto@magnideveloper.com "Contacto | Magni Developer")
