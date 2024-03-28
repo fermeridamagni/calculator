@@ -1,9 +1,16 @@
 {
-  "name": "template-nextjs",
-  "description": "Template to create NextJS applications.",
-  "author": "Fer Merida | https://github.com/fermeridamagni",
-  "repository": "https://github.com/fermeridamagni/template-nextjs",
-  "version": "0.1.0",
+  "name": "calculator",
+  "description": "Simple calculator made with Next.js",
+  "author": {
+    "name": "@fermeridamagni",
+    "url": "https://github.com/fermeridamagni",
+    "email": "fermeridamagni@magnideveloper.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fermeridamagni/password-generator"
+  },
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
