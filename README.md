@@ -24,9 +24,19 @@
 * eslint,
 * eslint-config-next,
 * autoprefixer,
+<<<<<<< HEAD
 * postcss,
 * sonner,
 * clsx,
+=======
+* @nextui-org/react,
+* clipboard-copy
+* framer-motion
+* mathjs
+* sonner
+* postcss,
+* next-themes
+>>>>>>> 99d508ad3cbe681462371c4da7a73ffaa0aced61
 * tailwindcss,
 * tailwindcss-animated,
 * tailwind-merge,
